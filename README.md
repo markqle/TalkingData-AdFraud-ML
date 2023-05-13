@@ -16,7 +16,7 @@ Evaluation:
 -	Evaluated on area under ROC curve between the predicted probability and the observed target
 7.	Conclusion: This project aims to develop a machine-learning model to detect attribution fraud in mobile app marketing. By accurately identifying instances of fraudulent activity and the sources of that activity, this model will enable advertisers to take action to prevent fraud and protect their investments in mobile advertising and assist TalkingData with their current prevention approach to prevent click fraud for app developers to measure the journey of a user's click across their portfolio, and flag IP addresses who produce lots of clicks, but never end up installing apps. With this information, they can build an IP blocklist and device blacklist more accurately and timely.
 
-Data fields
+**Data fields** <br>
 Each row of the training data contains a click record, with the following features. <br>
 •	ip: ip address of click. <br>
 •	app: app id for marketing. <br>
