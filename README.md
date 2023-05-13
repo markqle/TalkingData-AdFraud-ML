@@ -17,16 +17,16 @@ Evaluation:
 7.	Conclusion: This project aims to develop a machine-learning model to detect attribution fraud in mobile app marketing. By accurately identifying instances of fraudulent activity and the sources of that activity, this model will enable advertisers to take action to prevent fraud and protect their investments in mobile advertising and assist TalkingData with their current prevention approach to prevent click fraud for app developers to measure the journey of a user's click across their portfolio, and flag IP addresses who produce lots of clicks, but never end up installing apps. With this information, they can build an IP blocklist and device blacklist more accurately and timely.
 
 Data fields
-Each row of the training data contains a click record, with the following features.
-•	ip: ip address of click.
-•	app: app id for marketing.
-•	device: device type id of user mobile phone (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.)
-•	os: os version id of user mobile phone
-•	channel: channel id of mobile ad publisher
-•	click_time: timestamp of click (UTC)
-•	attributed_time: if user download the app for after clicking an ad, this is the time of the app download
-•	is_attributed: the target that is to be predicted, indicating the app was downloaded
-Note that ip, app, device, os, and channel are encoded.
-The test data is similar, with the following differences:
-•	click_id: reference for making predictions
-•	is_attributed: not included
+Each row of the training data contains a click record, with the following features. <br>
+•	ip: ip address of click. <br>
+•	app: app id for marketing. <br>
+•	device: device type id of user mobile phone (e.g., iphone 6 plus, iphone 7, huawei mate 7, etc.) <br>
+•	os: os version id of user mobile phone <br>
+•	channel: channel id of mobile ad publisher <br>
+•	click_time: timestamp of click (UTC) <br>
+•	attributed_time: if user download the app for after clicking an ad, this is the time of the app download <br>
+•	is_attributed: the target that is to be predicted, indicating the app was downloaded <br>
+Note that ip, app, device, os, and channel are encoded. <br>
+The test data is similar, with the following differences: <br>
+•	click_id: reference for making predictions <br>
+•	is_attributed: not included <br>
