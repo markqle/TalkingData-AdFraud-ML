@@ -1,7 +1,9 @@
 # TalkingData-AdFraud-ML
 
-This project were using the data from Kaggle
-Kaggle Data Source: https://www.kaggle.com/competitions/talkingdata-adtracking-fraud-detection
+This project were using the data from Kaggle:
+Since the data is very large, you can fetch it directly from Kaggle, Github doesn't have enough capacity to upload that large data. Thus, only the train sample is uploaded.
+For further investigation, here is the original dataset:
+#### Kaggle Data Source: https://www.kaggle.com/competitions/talkingdata-adtracking-fraud-detection
 
 1.	Introduction: Fraud risk is everywhere, but for companies that advertise online, click fraud can happen at an overwhelming volume, resulting in misleading click data and wasted money. Attribution fraud in mobile app marketing refers to artificially inflating the number of app installs or clicks attributed to a particular advertising source, typically to generate fraudulent payouts. This is a severe problem for advertisers, as it can lead to significant financial losses and a decrease in trust in the effectiveness of mobile advertising. In this project, we propose to develop a machine-learning model to detect attribution fraud in mobile app marketing.
 2.	Project Objectives: The primary objective of this project is to develop a machine learning model that can accurately identify instances of attribution fraud in mobile app marketing. Specifically, the model should be able to distinguish between legitimate and fraudulent app installs/clicks and identify the specific sources of fraudulent activity.
